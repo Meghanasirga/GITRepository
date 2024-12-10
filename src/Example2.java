@@ -1,7 +1,7 @@
 public class Example2 {
    
    public static void main(String[] args) {
-      int a = 11;
+      int a = 20;
       int b = 16;
       int c = minFunction(a, b);
       System.out.println("Minimum Value = " + c);
