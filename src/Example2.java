@@ -7,7 +7,13 @@ public class Example2 {
       System.out.println("Minimum Value = " + c);
    }
 
-   /** returns the minimum of two numbers */
+   @Override
+public String toString() {
+	return "Example2 [getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+			+ "]";
+}
+
+/** returns the minimum of two numbers */
    public static int minFunction(int n1, int n2) {
       int min;
       if (n1 > n2)
