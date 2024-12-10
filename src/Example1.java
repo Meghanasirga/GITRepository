@@ -6,7 +6,8 @@ public class Example1 {
 			if(hungry == "yes")
 				System.out.println("eat something....");
 			else {
-				System.out.println("sleep");
+				System.out.println("enjoy");
+				/*********/
 			}
 		}
 	}
