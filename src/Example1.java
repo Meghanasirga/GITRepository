@@ -5,10 +5,12 @@ public class Example1 {
 			String hungry = "yes";
 			if(hungry == "yes")
 				System.out.println("eat something....");
-			else {
+			elseif {
 				System.out.println("happy");
 				/*********/
 			}
+			else {
+				System.out.println(":)");
 		}
 	}
 
